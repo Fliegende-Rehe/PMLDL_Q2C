@@ -5,7 +5,7 @@
  ---
 
 <p style="text-align: center;">
-  <img src="/resources/_sources/_img/_logo.png"  alt="logo"/>
+  <img src="/_resources/_img/_logo.png"  alt="logo"/>
 </p>
 
 Quantum Query Comparator (Q2C) is an innovative NLP chatbot designed to understand and compare the semantic essence of
@@ -114,7 +114,7 @@ using our accessories, implemented in the first two weeks, in the new Q2C projec
 ### Exploratory Data Analysis [EDA]
 
 <p style="text-align: center;">
-  <img src="/resources/_sources/_img/_word_cloud.png"  alt="logo"/>
+  <img src="/_resources/_img/_word_cloud.png"  alt="logo"/>
 </p>
 
 - **Ratio between Duplicate Question Pairs** helps in understanding the balance between duplicate and non-duplicate
@@ -152,7 +152,7 @@ science process.
 ### Data Engineering [DE]
 
 <p style="text-align: center;">
-  <img src="/resources/_sources/_img/tokenizer.png"  alt="logo"/>
+  <img src="/_resources/_img/tokenizer.png"  alt="logo"/>
 </p>
 
 - **Lowercasing** create a uniform representation of text and reduce the dimensionality of the data

@@ -114,7 +114,7 @@ using our accessories, implemented in the first two weeks, in the new Q2C projec
 ### Exploratory Data Analysis [EDA]
 
 <p style="text-align: center;">
-  <img src="/resources/_sources/_img/_word_cloud1.png"  alt="logo"/>
+  <img src="/resources/_sources/_img/_word_cloud.png"  alt="logo"/>
 </p>
 
 - **Ratio between Duplicate Question Pairs** helps in understanding the balance between duplicate and non-duplicate

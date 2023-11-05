@@ -5,7 +5,7 @@
  ---
 
 <p style="text-align: center;">
-  <img src="/_resources/_img/_logo.png"  alt="logo"/>
+  <img src="images/logo.png"  alt="logo"/>
 </p>
 
 Quantum Query Comparator (Q2C) is an innovative NLP chatbot designed to understand and compare the semantic essence of
@@ -114,7 +114,7 @@ using our accessories, implemented in the first two weeks, in the new Q2C projec
 ### Exploratory Data Analysis (w1_exploratory_data_analysis.ipynb)
 
 <p style="text-align: center;">
-  <img src="/_resources/_img/_word_cloud.png"  alt="logo"/>
+  <img src="images/word_cloud.png"  alt="logo"/>
 </p>
 
 - **Ratio between Duplicate Question Pairs** helps in understanding the balance between duplicate and non-duplicate
@@ -152,7 +152,7 @@ science process.
 ### Data Engineering (w2_data_engineering.ipynb)
 
 <p style="text-align: center;">
-  <img src="/_resources/_img/tokenizer.png"  alt="logo"/>
+  <img src="images/tokenizer.png"  alt="logo"/>
 </p>
 
 - **Lowercasing** create a uniform representation of text and reduce the dimensionality of the data
@@ -209,7 +209,11 @@ will choose the model with the highest scores. We investigated the issue and stu
 - Model Selection
 - Training & Fine-tuning
 
-### Model Selection
+### Model Selection (w3_model_selection)
+
+<p style="text-align: center;">
+  <img src="images/cosine_similarity.png"  alt="logo"/>
+</p>
 
 We tried three model options:
 

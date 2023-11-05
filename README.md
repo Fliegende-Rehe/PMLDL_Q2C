@@ -47,7 +47,7 @@ created road-map:
     - Data cleaning: removing duplicates, correcting typos, etc.
     - Split the data into training, validation, and test sets.
 
-- [ ] *Model Selection & Prototyping:*
+- [x] *Model Selection & Prototyping:*
     - Choose baseline models (TF-IDF, Count Vectorizer)
     - Experiment with advanced models (Word Embeddings, BERT, RoBERTa)
     - Implement similarity scoring mechanisms (cosine similarity, Euclidean distance)
@@ -111,7 +111,7 @@ went with the anecdote generator. We’ve been working on the project for about 
 when potential customers contacted us. We were interested in selling the software, so we agreed to the offer. We are now
 using our accessories, implemented in the first two weeks, in the new Q2C project.
 
-### Exploratory Data Analysis [EDA]
+### Exploratory Data Analysis (w1_exploratory_data_analysis.ipynb)
 
 <p style="text-align: center;">
   <img src="/_resources/_img/_word_cloud.png"  alt="logo"/>
@@ -149,7 +149,7 @@ As part of EDA we apply above techniques to our data. Each of these techniques s
 of the dataset's nature and characteristics, ensuring more informed decision-making during subsequent stages of the data
 science process.
 
-### Data Engineering [DE]
+### Data Engineering (w2_data_engineering.ipynb)
 
 <p style="text-align: center;">
   <img src="/_resources/_img/tokenizer.png"  alt="logo"/>
@@ -199,6 +199,37 @@ will choose the model with the highest scores. We investigated the issue and stu
     - BERT (Bidirectional Encoder Representations from Transformers): Offers deep bidirectional representations
 
     - RoBERTa, DistilBERT, etc.: Variations of BERT with different training strategies or sizes
+
+## **Week III progress**
+
+ ---
+
+### Agenda:
+
+- Model Selection
+- Training & Fine-tuning
+
+### Model Selection
+
+We tried three model options:
+
+- Baseline Models (Elina)
+- Word Embeddings (Anatoliy)
+- Pre-trained Models (Ruslan)
+
+Results demonstrated that computing the cosine similarity between the embeddings of questions to determine similarity is
+the best suited to our task. We will develop and improve this method.
+
+### Training & Fine-tuning
+
+Next week, we’ll divide the task again, and one person will continue to explore possible models. And two other members
+of the team will be engaged in Training & Fine-tuning of the current solution. Next week plan:
+
+- Preliminary Testing
+- Model Sanity Checks
+- Primary Evaluation Metrics
+- Advanced Evaluation Metrics
+- Error Analysis
 
 ## **Useful links**
 

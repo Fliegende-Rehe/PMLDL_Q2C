@@ -209,7 +209,7 @@ will choose the model with the highest scores. We investigated the issue and stu
 - Model Selection
 - Training & Fine-tuning
 
-### Model Selection (w3_model_selection)
+### Model Selection (w3_model_selection.ipynb)
 
 <p style="text-align: center;">
   <img src="images/cosine_similarity.png"  alt="logo"/>

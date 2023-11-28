@@ -1,4 +1,5 @@
 bot_token.py
 database.db
 cc.en.300.bin
+cc.en.300.bin.gz
 __pycache__

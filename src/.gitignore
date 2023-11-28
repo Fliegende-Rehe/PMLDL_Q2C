@@ -1,5 +1,6 @@
-bot_token.py
-database.db
+__pycache__
 cc.en.300.bin
 cc.en.300.bin.gz
-__pycache__
+q_quora.csv
+bot_token.py
+database.db

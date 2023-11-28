@@ -2,37 +2,32 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
-import torch
+
+import enum
+import os
 import re
 import string
-from nltk.stem import WordNetLemmatizer
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
+
 import fasttext
 import fasttext.util
-import os
 import numpy as np
-import enum
+import torch
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize
 
 EMBEDDINGS_FILE = 'embeddings.pt'
 PHRASES_FILE = 'phrases.pt'
 
+stop_words = set(stopwords.words('english'))
 stop = stopwords.words('english')
 lemmatizer = WordNetLemmatizer()
+cos = torch.nn.CosineSimilarity(dim=0)
 fasttext_model = None
 
 
 def get_embedding(s):
     return get_fasttext_embedding(s)
-
-
-def cosine_similarity(q1, q2):
-    return get_fasttext_cosine_sim(q1, q2)
-
-
-def get_fasttext_cosine_sim(q1, q2):
-    cos = torch.nn.CosineSimilarity(dim=0)
-    return cos(q1.reshape(-1), q2.reshape(-1)).item()
 
 
 def get_fasttext_embedding(q):
@@ -61,6 +56,10 @@ def preprocess_single_str(s):
     s = [lemmatizer.lemmatize(word) for word in s]
     s = ' '.join(s)
     return s
+
+
+def cosine_similarity(q1, q2):
+    return cos(q1.reshape(-1), q2.reshape(-1)).item()
 
 
 def create_and_save_phrase_embeddings(phrases, emb_path=EMBEDDINGS_FILE, phrases_path=PHRASES_FILE):

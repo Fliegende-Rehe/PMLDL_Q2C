@@ -1,8 +1,10 @@
-from ai import get_scenario_record, get_embedding, find_scenario_record, ChatState
 import sqlite3
+
+from ai import get_scenario_record, get_embedding, find_scenario_record, ChatState
 
 DATABASE_FILENAME = 'database.db'
 DATABASE_TABLENAME = 'Chats'
+
 
 def db_connect(db_filename):
     connection = sqlite3.connect(db_filename)
@@ -30,10 +32,10 @@ def update_record(id, state, branched_id):
     current_state = get_record(id)
     if current_state is None:
         cursor.execute(f"INSERT INTO {DATABASE_TABLENAME} (id, state, branched_id) VALUES (?, ?, ?)",
-                   (id, state.value, branched_id))
+                       (id, state.value, branched_id))
     else:
         cursor.execute(f"UPDATE {DATABASE_TABLENAME} SET id = ?, state = ?, branched_id = ?",
-                   (id, state.value, branched_id))
+                       (id, state.value, branched_id))
     conn.commit()
     conn.close()
 

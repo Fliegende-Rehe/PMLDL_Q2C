@@ -12,6 +12,8 @@ Quantum Query Comparator (Q2C) is an advanced NLP chatbot designed to analyze an
 queries with a comprehensive question base. Utilizing cutting-edge NLP techniques, Q2C transcends simple text matching
 to deliver contextually relevant and accurate responses.
 
+<div style="page-break-after: always;"></div>
+
 ## **Road-map**
 
  ---
@@ -96,6 +98,8 @@ due to the small size of the team. You can see the table below with all members 
 As part of EDA we apply above techniques to our data. Each of these techniques serves to provide a deeper understanding
 of the dataset's nature and characteristics, ensuring more informed decision-making during subsequent stages of the data
 science process.
+
+<div style="page-break-after: always;"></div>
 
 ## **D1.2 progress report**
 

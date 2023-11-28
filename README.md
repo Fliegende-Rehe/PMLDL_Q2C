@@ -1,7 +1,4 @@
-# *
-
-*[Quantum Query Comparator [Q2C]- Transcending textual boundaries, using semantic spheres](https://github.com/Fliegende-Rehe/PMLDL_Q2C)
-**
+# **[Quantum Query Comparator [Q2C]- Transcending textual boundaries, using semantic spheres](https://github.com/Fliegende-Rehe/PMLDL_Q2C)**
 
 ## **Introduction**
 
